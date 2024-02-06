@@ -1,0 +1,69 @@
+﻿<UserControl x:Class="AllProject.ui.StatWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AllProject.ui"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" d:DesignWidth="913" Background="#f9ebe2" Height="692">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Button.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.TextBox.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.DeepPurple.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <DataGrid x:Name="dgStatProd" AutoGenerateColumns="False" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible" Margin="30,166,561,110">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Изделие" Width="150" Binding="{Binding Key}"/>
+                <DataGridTextColumn Header="Частота выбора, %" Width="200" Binding="{Binding Value}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Border x:Name="filter"   Background="White" CornerRadius="30" Margin="30,17,561,636">
+            <Grid>
+                <Button Margin="287,10,11,10" Background="Transparent" BorderBrush="Transparent" Height="Auto">
+
+                </Button>
+                <materialDesign:PackIcon Kind="Search" VerticalAlignment="Center" Margin="287,0,0,0" Width="24" Height="30"></materialDesign:PackIcon>
+                <TextBox Margin="16,1,0,5" VerticalAlignment="Center" BorderBrush="#00000000" BorderThickness="0" HorizontalAlignment="Left" Width="271" Height="32" FontSize="14" CaretBrush="#623ed0" Foreground="Black" SelectionBrush="#623ed0" TextChanged="TextBox_TextChanged">
+
+                </TextBox>
+            </Grid>
+        </Border>
+        <Button x:Name="BtnPrint" Background="Transparent" Foreground="#38563e" HorizontalAlignment="Left" Margin="777,577,0,0" VerticalAlignment="Top" Width="104" Height="42" Click="BtnPrint_Click">
+            <Grid>
+                <materialDesign:PackIcon  Kind="Printer" Height="32" Width="47" Margin="-33,0,0,0"/>
+                <TextBlock x:Name="ordtext" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="14,8,-11,0" ><Run Text="Печать"/></TextBlock>
+            </Grid>
+        </Button>
+        <Border x:Name="b2_Copy1_Копировать1"  BorderThickness="1" BorderBrush="#7F020B1A" CornerRadius="10" Padding="2"  Margin="406,12,408,636">
+            <ComboBox Style="{StaticResource MaterialDesignComboBox}"  x:Name="year" Height="32"  IsEditable="True" Margin="7,0,13,0" Foreground="Black" FontSize="13" SelectionChanged="year_SelectionChanged"/>
+        </Border>
+        <Border x:Name="b2_Copy1_Копировать"  BorderThickness="1" BorderBrush="#7F020B1A" CornerRadius="10" Padding="2"  Margin="568,12,246,636">
+            <ComboBox Style="{StaticResource MaterialDesignComboBox}"  x:Name="month" Height="32"  IsEditable="True" Margin="7,0,13,0" Foreground="Black" FontSize="13" SelectionChanged="month_SelectionChanged"/>
+        </Border>
+        <Border x:Name="b2_Copy1_Копировать2"  BorderThickness="1" BorderBrush="#7F020B1A" CornerRadius="10" Padding="2"  Margin="730,13,84,636">
+            <ComboBox Style="{StaticResource MaterialDesignComboBox}"  x:Name="day" Height="32"  IsEditable="True" Margin="7,0,13,0" Foreground="Black" FontSize="13" SelectionChanged="day_SelectionChanged"/>
+        </Border>
+        <Label Content="День:" HorizontalAlignment="Left" Margin="672,23,0,0" VerticalAlignment="Top" Background="Transparent" FontFamily="Segoe UI Variable" FontSize="14" Height="28" Width="auto" />
+        <Label Content="Месяц:" HorizontalAlignment="Left" Margin="511,23,0,0" VerticalAlignment="Top" Background="Transparent" FontFamily="Segoe UI Variable" FontSize="14" Height="28" Width="auto" />
+        <Label Content="Год:" HorizontalAlignment="Left" Margin="357,23,0,0" VerticalAlignment="Top" Background="Transparent" FontFamily="Segoe UI Variable" FontSize="14" Height="28" Width="auto" />
+
+        <Border x:Name="b2_Copy1_Копировать3"  BorderThickness="1" BorderBrush="#7F020B1A" CornerRadius="10" Padding="2"  Margin="239,80,575,568">
+            <TextBlock x:Name="money" Height="32" Margin="7,0,13,0" Foreground="Black" FontSize="13"/>
+        </Border>
+        <Label Width="auto" VerticalAlignment="Top" Margin="48,88,0,0" Height="28" HorizontalAlignment="Left" FontSize="14" FontFamily="Segoe UI Variable" Content="Доход за заданный период:" Background="Transparent"/>
+        <DataGrid x:Name="dgStatServ" AutoGenerateColumns="False" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible" Margin="376,166,215,110">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Услуга" Width="150" Binding="{Binding Key}"/>
+                <DataGridTextColumn Header="Частота выбора, %" Width="180" Binding="{Binding Value}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

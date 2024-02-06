@@ -1,0 +1,87 @@
+﻿<UserControl x:Class="AllProject.ui.ClientWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AllProject.ui"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" d:DesignWidth="913" Background="#f9ebe2" Height="692">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Button.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.TextBox.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.DeepPurple.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <DataGrid x:Name="dgClient"   AutoGenerateColumns="False" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible" Margin="30,61,32,115">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ФИО" Width="auto" Binding="{Binding FullName}"/>
+                <DataGridTextColumn Header="Номер телефона" Width="auto" Binding="{Binding Phone}"/>
+                <DataGridTextColumn Header="Адрес" Width="auto" Binding="{Binding Address}"/>
+                <DataGridTemplateColumn x:Name="delbut"  Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Background="Red" HorizontalAlignment="Right" Height="22" Width="22" Click="BtnDelete_Click" >
+                                <Button.Style>
+                                    <Style x:Name="ButtonVisibility">
+                                        <Setter Property="UIElement.Visibility" Value="Hidden"/>
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding IsSelected, RelativeSource={RelativeSource AncestorType={x:Type DataGridRow}}}" Value="True">
+                                                <Setter Property="UIElement.Visibility" Value="Visible"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Button.Style>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                    <materialDesign:PackIcon Kind="Delete" Foreground="White" Width="20" Height="18"/>
+                                </StackPanel>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="addbut" HorizontalAlignment="Left" Background="Transparent"  Foreground="#38563e" Margin="711,17,0,0" VerticalAlignment="Top" Width="184" Height="39" Click="BtnAdd_Click">
+            <Grid>
+                <materialDesign:PackIcon   Foreground="#38563e" Kind="AddBox" Height="32" Width="47" Margin="-21,0,0,0" VerticalAlignment="Center"/>
+                <TextBlock x:Name="ordtext3" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="14,0,0,0" ><Run Text="Добавить клиента"/></TextBlock>
+            </Grid>
+        </Button>
+        <Border x:Name="filter"   Background="White" CornerRadius="30" Margin="30,17,561,636">
+            <Grid>
+                <Button Margin="287,10,11,10" Background="Transparent" BorderBrush="Transparent" Height="Auto">
+
+                </Button>
+                <materialDesign:PackIcon Kind="Search" VerticalAlignment="Center" Margin="287,0,0,0" Width="24" Height="30"></materialDesign:PackIcon>
+                <TextBox Margin="16,1,0,5" VerticalAlignment="Center" BorderBrush="#00000000" BorderThickness="0" HorizontalAlignment="Left" Width="271" Height="32" FontSize="14" CaretBrush="#623ed0" Foreground="Black" SelectionBrush="#623ed0" TextChanged="TextBox_TextChanged">
+
+                </TextBox>
+            </Grid>
+        </Border>
+        <Button x:Name="BtnPrint" Background="Transparent" Foreground="#38563e" HorizontalAlignment="Left" Margin="777,577,0,0" VerticalAlignment="Top" Width="104" Height="42" Click="BtnPrint_Click">
+            <Grid>
+                <materialDesign:PackIcon  Kind="Printer" Height="32" Width="47" Margin="-33,0,0,0"/>
+                <TextBlock x:Name="ordtext" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="14,8,-11,0" ><Run Text="Печать"/></TextBlock>
+            </Grid>
+        </Button>
+        <Button x:Name="BtnSave" BorderBrush="#38563e"  Foreground="#38563e" Background="Transparent" HorizontalAlignment="Left" Margin="553,17,0,0" VerticalAlignment="Top" Width="153" Height="39" Click="Save_Click">
+            <Grid>
+                <materialDesign:PackIcon  Kind="ContentSave" Height="32" Width="47" Margin="-33,0,0,0"/>
+                <TextBlock x:Name="ordtext2" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="14,0,0,0" ><Run Text="Сохранить"/></TextBlock>
+            </Grid>
+        </Button>
+        <Button x:Name="update_Copy" Background="Transparent"  Foreground="#38563e" HorizontalAlignment="Left" Margin="395,17,0,0" VerticalAlignment="Top" Width="153" Height="39" Click="BtnDelete_Click">
+            <Grid>
+                <materialDesign:PackIcon  Kind="Delete" Height="32" Width="47" Margin="-33,0,0,0"/>
+                <TextBlock x:Name="ordtext1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="14,0,0,0" ><Run Text="Удалить"/></TextBlock>
+            </Grid>
+        </Button>
+
+    </Grid>
+</UserControl>

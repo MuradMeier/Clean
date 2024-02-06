@@ -1,0 +1,91 @@
+D:\Химчистка\AllProject\bin\Release\AllProject.exe.config
+D:\Химчистка\AllProject\bin\Release\AllProject.exe
+D:\Химчистка\AllProject\bin\Release\AllProject.pdb
+D:\Химчистка\AllProject\bin\Release\EntityFramework.dll
+D:\Химчистка\AllProject\bin\Release\EntityFramework.SqlServer.dll
+D:\Химчистка\AllProject\bin\Release\MaterialDesignColors.dll
+D:\Химчистка\AllProject\bin\Release\MaterialDesignThemes.Wpf.dll
+D:\Химчистка\AllProject\bin\Release\Microsoft.Xaml.Behaviors.dll
+D:\Химчистка\AllProject\bin\Release\EntityFramework.xml
+D:\Химчистка\AllProject\bin\Release\EntityFramework.SqlServer.xml
+D:\Химчистка\AllProject\bin\Release\MaterialDesignColors.pdb
+D:\Химчистка\AllProject\bin\Release\MaterialDesignThemes.Wpf.pdb
+D:\Химчистка\AllProject\bin\Release\MaterialDesignThemes.Wpf.xml
+D:\Химчистка\AllProject\bin\Release\Microsoft.Xaml.Behaviors.pdb
+D:\Химчистка\AllProject\bin\Release\Microsoft.Xaml.Behaviors.xml
+D:\Химчистка\AllProject\obj\Release\AllProject.csproj.AssemblyReference.cache
+D:\Химчистка\AllProject\obj\Release\AllProject.csproj.SuggestedBindingRedirects.cache
+D:\Химчистка\AllProject\obj\Release\AddClient.g.cs
+D:\Химчистка\AllProject\obj\Release\AddServiceForm.g.cs
+D:\Химчистка\AllProject\obj\Release\AddOrderForm.g.cs
+D:\Химчистка\AllProject\obj\Release\App.g.cs
+D:\Химчистка\AllProject\obj\Release\MainWindow.g.cs
+D:\Химчистка\AllProject\obj\Release\SignUpForm.g.cs
+D:\Химчистка\AllProject\obj\Release\ui\Cabinet.g.cs
+D:\Химчистка\AllProject\obj\Release\ui\ClientForm.g.cs
+D:\Химчистка\AllProject\obj\Release\ui\OrderForm.g.cs
+D:\Химчистка\AllProject\obj\Release\ui\ServicesPage.g.cs
+D:\Химчистка\AllProject\obj\Release\AllProject_MarkupCompile.cache
+D:\Химчистка\AllProject\obj\Release\AllProject_MarkupCompile.lref
+D:\Химчистка\AllProject\obj\Release\AddClient.baml
+D:\Химчистка\AllProject\obj\Release\AddServiceForm.baml
+D:\Химчистка\AllProject\obj\Release\AddOrderForm.baml
+D:\Химчистка\AllProject\obj\Release\App.baml
+D:\Химчистка\AllProject\obj\Release\MainWindow.baml
+D:\Химчистка\AllProject\obj\Release\SignUpForm.baml
+D:\Химчистка\AllProject\obj\Release\ui\Cabinet.baml
+D:\Химчистка\AllProject\obj\Release\ui\ClientForm.baml
+D:\Химчистка\AllProject\obj\Release\ui\OrderForm.baml
+D:\Химчистка\AllProject\obj\Release\ui\ServicesPage.baml
+D:\Химчистка\AllProject\obj\Release\AllProject.g.resources
+D:\Химчистка\AllProject\obj\Release\AllProject.Properties.Resources.resources
+D:\Химчистка\AllProject\obj\Release\AllProject.csproj.GenerateResource.cache
+D:\Химчистка\AllProject\obj\Release\AllProject.csproj.CoreCompileInputs.cache
+D:\Химчистка\AllProject\obj\Release\AllProject.csproj.CopyComplete
+D:\Химчистка\AllProject\obj\Release\AllProject.exe
+D:\Химчистка\AllProject\obj\Release\AllProject.pdb
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\bin\Release\AllProject.exe.config
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\bin\Release\AllProject.exe
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\bin\Release\AllProject.pdb
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\bin\Release\EntityFramework.dll
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\bin\Release\MaterialDesignColors.dll
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\bin\Release\Microsoft.Xaml.Behaviors.dll
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\bin\Release\EntityFramework.xml
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\bin\Release\MaterialDesignColors.pdb
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\bin\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\bin\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\bin\Release\Microsoft.Xaml.Behaviors.pdb
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\bin\Release\Microsoft.Xaml.Behaviors.xml
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\AllProject.csproj.AssemblyReference.cache
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\AddClient.g.cs
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\AddServiceForm.g.cs
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\AddOrderForm.g.cs
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\App.g.cs
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\MainWindow.g.cs
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\SignUpForm.g.cs
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\ui\Cabinet.g.cs
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\ui\ClientForm.g.cs
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\ui\OrderForm.g.cs
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\ui\ServicesPage.g.cs
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\AllProject_MarkupCompile.cache
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\AllProject_MarkupCompile.lref
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\AddClient.baml
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\AddServiceForm.baml
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\AddOrderForm.baml
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\App.baml
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\MainWindow.baml
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\SignUpForm.baml
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\ui\Cabinet.baml
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\ui\ClientForm.baml
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\ui\OrderForm.baml
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\ui\ServicesPage.baml
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\AllProject.g.resources
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\AllProject.Properties.Resources.resources
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\AllProject.csproj.GenerateResource.cache
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\AllProject.csproj.CoreCompileInputs.cache
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\AllProject.csproj.CopyComplete
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\AllProject.exe
+C:\Users\murad\Downloads\Telegram Desktop\Химчистка\Химчистка\AllProject\obj\Release\AllProject.pdb

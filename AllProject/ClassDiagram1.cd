@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="AllProject.Model.Category">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Model\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllProject.Model.Product">
+    <Position X="7" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAQACgAAAAAAAAAQAAAQAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Model\Product.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Category" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AllProject.Model.OrderComposition">
+    <Position X="10.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAECADAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Model\OrderComposition.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Order" />
+      <Property Name="Product" />
+      <Property Name="Service" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AllProject.App">
+    <Position X="21.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>View\App.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+      <Property Name="signUpWindow" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllProject.ui.ProductWindow">
+    <Position X="6" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAgAAgAAAAEAAAAAAAAAAAAAAAAAAADAAgACAAA=</HashCode>
+      <FileName>View\ProductWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="newProductWindow" />
+      <Property Name="product" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllProject.NewProductWindow">
+    <Position X="8.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAgAAQAAAAAAgAAAAAAAAgAAAAA=</HashCode>
+      <FileName>View\NewProductWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="product" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllProject.NewCategoryWindow">
+    <Position X="4.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAgAAQAABAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>View\NewCategoryWindow.xaml.cs</FileName>
+      <NewMemberFileName>View\NewClientWindow.xaml.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="category" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllProject.ui.CategoryWindow">
+    <Position X="1.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAEAAAAAAAAABAAAAAAAAACIAgACAAA=</HashCode>
+      <FileName>View\CategoryWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="newCategoryWindow" />
+      <Property Name="category" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllProject.ui.OrderCompositionWindow">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAEAAAAAAAAABAAAAAAAAACAAAACAgA=</HashCode>
+      <FileName>View\OrderCompositionWindow.xaml.cs</FileName>
+      <NewMemberFileName>View\CategoryWindow.xaml.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="orderComposition" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllProject.Model.Order">
+    <Position X="13" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAEAAAAIAgBAAACAAAAAAAAQAAAAAAAABAQAAAAQ=</HashCode>
+      <FileName>Model\Order.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Client" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AllProject.ui.OrderWindow">
+    <Position X="12.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAgBAAAQAAEAAAAAAAAAAAAAAAAAAACACgACAAA=</HashCode>
+      <FileName>View\OrderWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="order" />
+      <Property Name="newOrderWindow" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllProject.NewOrderWindow">
+    <Position X="15.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAABAABBAAAAAAgIQAECAAAUAAAAAEAACAAAAAA=</HashCode>
+      <FileName>View\NewOrderWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="order" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllProject.Model.Client">
+    <Position X="15.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAABAAAAAAgIAAAAAAAAAAAAAAAAACAAAAIAAAAAA=</HashCode>
+      <FileName>Model\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllProject.ui.ClientWindow">
+    <Position X="17.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAEAAAAAAAAABAAAAAAAAACABgACAAA=</HashCode>
+      <FileName>View\ClientWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="newClientWindow" />
+      <Property Name="client" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AllProject.NewClientWindow">
+    <Position X="17.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAgAAQAABAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>View\NewClientWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="client" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllProject.Model.Service">
+    <Position X="6.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAQAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Model\Service.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllProject.NewServiceWindow">
+    <Position X="3.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAgAAAEAAAAAAAAAAEAACAAAAAA=</HashCode>
+      <FileName>View\NewServiceWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="service" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllProject.ui.ServiceWindow">
+    <Position X="1.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAEAAAAAAAAABAAAAABAAECAAgACAAA=</HashCode>
+      <FileName>View\ServiceWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="service" />
+      <Property Name="newServForm" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllProject.Model.Login">
+    <Position X="17.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAASAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllProject.Model.DB">
+    <Position X="19.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAEAAAAAAAAAAAAAACAAAAAAEAQAEAAAAAAQAAAAAAQ=</HashCode>
+      <FileName>Model\DB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllProject.MainWindow">
+    <Position X="12.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQYCAAAAAAAAAAAABAgAAQAIAAhAAABAAAQCAAgAAAA=</HashCode>
+      <FileName>View\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="categoryWindow" />
+      <Property Name="productWindow" />
+      <Property Name="serviceWindow" />
+      <Property Name="orderWindow" />
+      <Property Name="clientWindow" />
+      <Property Name="orderCompositionWindow" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllProject.SignUpWindow">
+    <Position X="19.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAAAACAEABAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>View\SignUpWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="log" />
+      <Field Name="mainWindow" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
